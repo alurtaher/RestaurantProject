@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <form id="my-form">
+            <h1 id="res">Welcome to the Heera Restaurant</h1>
+            <h1>Plz add the item</h1>
+            <div>
+                <label for="dish-name">Dish Name:</label>
+                <input type="text" id="dish-name" class="dish">
+            </div>
+            <div>
+                <label for="price">Price :</label>
+                <input type="number" id="price" class="dish">
+            </div>
+            <label for="table">Choose a table:</label>
+            <select id="table" class="dish" name="table">
+                <option value="Table1">Table1</option>
+                <option value="Table2">Table2</option>
+                <option value="Table3">Table3</option>
+            </select>
+            <button type="submit">Add to the Bill</button>
+        </form>
+
+        <div id="table1-orders" class="table-orders"><h1>Table 1</h1></div>
+        <div id="table2-orders" class="table-orders"><h1>Table 2</h1></div>
+        <div id="table3-orders" class="table-orders"><h1>Table 3</h1></div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.1/axios.min.js"></script>
+</body>
+</html>

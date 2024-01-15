@@ -1,0 +1,25 @@
+#res{
+        width: 100%;
+        text-align: center;
+}
+.dish,button{
+    margin: 10px;
+    background-color: lightyellow;
+    color:darkred;
+}
+html,body{
+    background-color: lightblue;
+    text-align: center;
+}
+
+#table1-orders{
+    height: 180px;
+}
+
+#table2-orders{
+    height: 180px;
+}
+
+#table3-orders{
+    height: 180px;
+}
